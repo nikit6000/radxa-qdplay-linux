@@ -7,8 +7,7 @@ config WLAN_VENDOR_AIC
 config AIC_FW_PATH
 	depends on WLAN_VENDOR_AIC
 	string "Firmware & config file path"
-	default "/vendor/etc/firmware"
-	#default "/lib/firmware/aic8800_sdio"
+	default "/vendor/etc/firmware/aic_sdio"
 	help
 	  Path to the firmware & config file.
 
